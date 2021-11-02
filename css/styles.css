@@ -1,0 +1,51 @@
+:root{
+    font-family: 'Red Hat Display', sans-serif;
+    /* Primary colors */
+    --Pale-blue: hsl(225, 100%, 94%);
+    --Bright-blue: hsl(245, 75%, 52%);
+    /* Neutral Colors */
+    --Very-pale-blue: hsl(225, 100%, 98%);
+    --Desaturated-blue: hsl(224, 23%, 55%);
+    --Dark-blue: hsl(223, 47%, 23%);
+
+    /* anchor colors */
+    --a-color:hsl(228, 45%, 44%); 
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: var(--Pale-blue);
+}
+.payment-card{
+    margin: 0 auto;
+    margin-top: 60px;
+    width: 85%;
+    overflow: hidden;
+    border-radius: 20px;
+    background-color: white;
+}
+.payment-card header img{
+    height: 148px;
+    width: 100%;
+}
+main{
+    text-align: center;
+}
+main h1{
+    height: 900;
+}
+main p{
+    margin: 0 24px 24px 24px;
+    color: var(--Desaturated-blue);
+    font-weight: 500;
+    line-height: 24px;
+}
+.Plan{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 24px 24px 24px;
+    padding: 12px;
+    border-radius: 12px;
+    background-color: var(--Very-pale-blue);
+}
